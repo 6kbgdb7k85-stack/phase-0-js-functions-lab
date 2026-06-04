@@ -6,7 +6,6 @@ function calculateTax(amount){
 function convertToUpperCase(string){
     let upperCaseString = '';
     for (let i=0;i<string.length;i++){
-        console.log(string[i]);
         upperCaseString+=(string[i].toUpperCase())
     }
     return upperCaseString;
